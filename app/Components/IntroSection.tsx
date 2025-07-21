@@ -2,7 +2,7 @@ import { CardV1 } from "../UI/CardV1"
 
 export const IntroSection = () => {
     return(
-        <div className="flex justify-between w-full h-[605px] bg-[#000E1C]">
+        <div className="flex justify-between w-full h-[780px] bg-[#000E1C]">
             <CardV1 />
         </div>
     )
