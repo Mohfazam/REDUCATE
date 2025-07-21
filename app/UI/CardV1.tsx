@@ -1,6 +1,6 @@
 export const CardV1 = () => {
     return (
-        <div className="bg-gradient-to-b from-[#17213D] to-[#000D1C] rounded-md h-[660px] w-[531px] m-4 py-2">
+        <div className="bg-gradient-to-b from-[#17213D] to-[#000D1C] rounded-md h-[660px] w-[531px] m-4 -mr-1 py-2">
             <div className="flex justify-center">
                 <div className="w-[407px] rounded-[20px] mt-12 overflow-hidden">
                     <img
