@@ -12,11 +12,15 @@ export const CardV1 = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col items-center text-[#C2C2C2] text-center mt-4 font-normal w-[407px] mx-auto">
-                <span>Building Blocks of our</span>
+            <div className="flex flex-col items-center text-[#C2C2C2] text-center mt-4 font-normal w-[407px] mx-auto py-2">
+                <span className="text-[20px]">Building Blocks of our</span>
                 <div className="font-medium text-wrap w-68 text-[28px] bg-gradient-to-r from-[#1664D8] via-[#8CD7F7] to-[#1664D8] bg-clip-text text-transparent">
                     AI enabled learning ecosystem
                 </div>
+            </div>
+
+            <div>
+
             </div>
         </div>
     );
