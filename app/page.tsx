@@ -4,7 +4,7 @@ import { Navbar } from "./Components/Navbar";
 export default function Home() {
   return (
     
-        <div>
+        <div className="bg-blue-700">
           <Navbar />
         </div>
   );
