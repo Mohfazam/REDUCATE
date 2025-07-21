@@ -20,6 +20,7 @@ export const Hero = () => {
                             src="./Main_Logo.png"
                             alt="Main Logo"
                             className="object-contain w-[363px] h-[119px]"
+                             draggable="false"
                         />
                     </div>
                 </div>
@@ -41,6 +42,7 @@ export const Hero = () => {
                     src="./Laptop_Clip_Art.png"
                     alt="Laptop Clip Art"
                     className="object-cover w-full h-full relative z-30"
+                     draggable="false"
                 />
 
             </div>
@@ -91,7 +93,7 @@ export const Hero = () => {
             </div>
 
             <div className="absolute w-full h-[56px]">
-                <img src="./Arch.webp" alt="Hero Bottom Arch" />
+                <img src="./Arch.webp" alt="Hero Bottom Arch"  draggable="false"/>
 
             </div>
 
