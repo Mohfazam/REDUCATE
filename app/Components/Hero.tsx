@@ -28,21 +28,22 @@ export const Hero = () => {
 
             <div className="flex items-center justify-center mt-8 relative w-[848px] h-[474px] mx-auto">
 
-  <div
-    className="absolute w-[676px] h-[400px] top-[24px] left-[86px] rounded-md z-10"
-    style={{
-      boxShadow: "0 0 120px 60px rgba(28, 64, 142, 0.4)",
-      borderRadius: "8px"
-    }}
-  />
+                <div
+                    className="absolute w-[676px] h-[400px] top-[24px] left-[86px] rounded-md z-10"
+                    style={{
+                        boxShadow: "0 0 120px 60px rgba(28, 64, 142, 0.4)",
+                        borderRadius: "8px"
+                    }}
+                />
 
-  <div className="absolute bg-[#1C408EB2] w-[676px] h-[400px] top-[24px] left-[86px] rounded-md z-20" />
-  <img
-    src="./Laptop_Clip_Art.png"
-    alt="Laptop Clip Art"
-    className="object-cover w-full h-full relative z-30"
-  />
-</div>
+                <div className="absolute bg-[#1C408EB2] w-[676px] h-[400px] top-[24px] left-[86px] rounded-md z-40" />
+                <img
+                    src="./Laptop_Clip_Art.png"
+                    alt="Laptop Clip Art"
+                    className="object-cover w-full h-full relative z-30"
+                />
+
+            </div>
 
 
 
@@ -79,6 +80,13 @@ export const Hero = () => {
                     top: "265px",
                     left: "80px",
                     transform: "rotate(-37deg)"
+                }} />
+
+                <div className="absolute bg-[#369FFF] rounded-full blur-[100px]" style={{
+                    width: "245px",
+                    height: "189px",
+                    top: "623px",
+                    left: "1200px",
                 }} />
             </div>
         </div>
