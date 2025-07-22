@@ -1,9 +1,9 @@
 export const Navbar = () => {
     return (
         <div className="w-full flex justify-center bg-transparent">
-            <div className="flex w-full h-[62px] gap-[32px] sm:justify-between mx-[42px] lg:ml-0 lg:mr-0 lg:justify-center">
-                <div className="w-[193px] h-[63px] ">
-                    <img src="./Main_Logo.png" alt="Reducate Logo"  draggable="false"/>
+            <div className="flex w-full h-[62px] gap-[32px] justify-between ml-[32px] mr-[32px] lg:justify-center lg:mx-0">
+                <div className="w-[193px] h-[63px]">
+                    <img src="./Main_Logo.png" alt="Reducate Logo" draggable="false"/>
                 </div>
 
                 <div className="block lg:hidden text-white text-[30px] mt-3">
@@ -28,15 +28,13 @@ export const Navbar = () => {
                     </div>
 
                     <div className="w-fit [h-27px]">
-                        Out Team
+                        Our Team
                     </div>
 
                     <div className="w-fit [h-27px]">
                         Contact Us
                     </div>
                 </div>
-
-                
             </div>
         </div>
     )
