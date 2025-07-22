@@ -15,6 +15,14 @@ export const DualCard = () => {
 
             <div className="w-[728px] flex justify-between items-center h-[263px] rounded-[24px] bg-gradient-to-b from-[#1e2948] to-[#000D1C00]">
                 <Side1 />
+                <div
+                    className="h-[197px] w-[0px] border-l-[1px]"
+                    style={{
+                        borderImageSource: 'linear-gradient(to top, rgba(102, 102, 102, 0.75), rgba(204, 204, 204, 0.75))',
+                        borderImageSlice: 1,
+                    }}
+                ></div>
+
                 <Side2 />
             </div>
 
@@ -29,7 +37,7 @@ const Side1 = () => {
                 Techno University
             </h2>
 
-            <div className="w-[306px] h-[100px] text-[#D6D6D6] text-center">
+            <div className="w-[306px] h-[100px] text-[#D6D6D6] text-center mb-2">
                 <span className="font-normal text-[16px] leading-[20px]">
                     End-to-end tech solutions for colleges empowering students, supporting faculty, and preparing campuses for real-world success and industry readiness for tomorrow&#39;s industry
                 </span>
@@ -49,7 +57,7 @@ const Side2 = () => {
                 Techno School
             </h2>
 
-            <div className="w-[306px] h-[100px] text-[#D6D6D6] text-center">
+            <div className="w-[306px] h-[100px] text-[#D6D6D6] text-center mb-2">
                 <span className="font-normal text-[16px] leading-[20px]">
                     Comprehensive solutions for schools to enhance learning, support educators, and nurture cognitive growth and real-world readiness for holistic student advancement with world-class facilities.
                 </span>
