@@ -1,7 +1,7 @@
 export const Navbar = () => {
     return (
         <div className="w-full flex justify-center bg-transparent">
-            <div className="flex w-full h-[62px] gap-[32px] sm:justify-between ml-[42px] mr-[42px] lg:ml-0 lg:mr-0 lg:justify-center">
+            <div className="flex w-full h-[62px] gap-[32px] sm:justify-between mx-[42px] lg:ml-0 lg:mr-0 lg:justify-center">
                 <div className="w-[193px] h-[63px] ">
                     <img src="./Main_Logo.png" alt="Reducate Logo"  draggable="false"/>
                 </div>
