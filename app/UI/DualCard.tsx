@@ -39,7 +39,7 @@ const Side1 = () => {
                 Techno University
             </h2>
 
-            <div className="w-[306px] h-[100px] text-[#D6D6D6] text-center mb-2">
+            <div className="w-[306px] h-[100px] text-[#D6D6D6] text-center mb-4">
                 <span className="font-normal text-[16px] leading-[20px]">
                     End-to-end tech solutions for colleges empowering students, supporting faculty, and preparing campuses for real-world success and industry readiness for tomorrow&#39;s industry
                 </span>
@@ -54,12 +54,12 @@ const Side1 = () => {
 
 const Side2 = () => {
     return (
-        <div className="w-[364px] flex flex-col justify-center px-4 items-center gap-3 mt-4">
+        <div className="w-[364px] flex flex-col justify-center px-4 items-center gap-3 mt-2">
             <h2 className="w-[190px] h-[27px] font-normal text-[22px] bg-gradient-to-r from-[#FFFFFF] to-[#9BBBFFCC] bg-clip-text text-transparent">
                 Techno School
             </h2>
 
-            <div className="w-[306px] h-[100px] text-[#D6D6D6] text-center mb-2">
+            <div className="w-[306px] h-[100px] text-[#D6D6D6] text-center mb-4">
                 <span className="font-normal text-[16px] leading-[20px]">
                     Comprehensive solutions for schools to enhance learning, support educators, and nurture cognitive growth and real-world readiness for holistic student advancement with world-class facilities.
                 </span>
