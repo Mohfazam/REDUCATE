@@ -86,12 +86,36 @@ const Fourth = () => {
 };
 
 const Sixth = () => {
-    return(
+    return (
         <div className="w-[352px] h-[259px] rounded-[15px] border-[0.75px] border-[#FFFFFF26]">
-            <div>
-                <div className="">
-
+            <div className="m-7">
+                <div className="w-[42px] h-[42px] rounded-full flex items-center justify-center"
+                    style={{
+                        background: "radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0.15) 100%)",
+                        boxShadow: "0px 0px 0px 0.75px #FFFFFF1A inset",
+                    }}>
+                    <div className="w-[18px] h-[18px]">
+                        <img src="./Features_Grid_One.webp" alt="Chemical Vector" draggable="false" className="w-full h-full object-contain" />
+                    </div>
                 </div>
+
+                <div className="mt-4">
+                    <div className="w-[202px] text-[15px] font-semibold bg-gradient-to-r from-[#D1D0D3] to-[#FFFFFF] text-transparent bg-clip-text">
+                        <span>Virtual Labs & In-app Coding</span>
+                    </div>
+
+                    <div className="w-[216px] h-[48px] mt-2 font-medium text-[11px] leading-[16px] text-[#FFFFFF99]">
+                        <span>
+                            Our Cloud-based Virtual Labs let you code and experiment in advanced  lab simulations on any device -- Phone or Computer
+                        </span>
+                    </div>
+
+                    <div>
+                        <span className="w-[154px] h-[11px]">Experience Virtual Labs</span>
+                        <span className="w-[154px] h-[11px]">-&gt;</span>
+                    </div>
+                </div>
+
             </div>
         </div>
     )
