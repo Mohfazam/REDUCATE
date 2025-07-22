@@ -1,3 +1,5 @@
+import { MoveButton } from "./MoveButton";
+
 export const DualCard = () => {
     return (
         <div className="w-[877px] h-[659px] rounded-md flex flex-col items-center bg-gradient-to-b from-[#17213D] to-[#000D1C] m-4 py-2">
@@ -87,17 +89,10 @@ const Button = () => {
                 </span>
 
 
-                <div
-                    className="w-0 h-0 mt-[2px]"
-                    style={{
-                        borderTop: '6px solid transparent',
-                        borderBottom: '6px solid transparent',
-                        borderLeft: '12px solid #62B4FF',
-                    }}
-                />
+
+                <MoveButton direction="right"/>
             </div>
 
-            {/* Gradient Border Layer */}
             <div
                 className="absolute inset-0 rounded-[6px] pointer-events-none"
                 style={{

@@ -2,7 +2,7 @@ export const Features = () => {
     return (
         <div className="w-full h-[1014px] flex flex-col items-center bg-gradient-to-b from-[#000D1C] to-[#17213D]">
             <div className="w-[555px] h-[86px]  gap-[8px] flex flex-col items-center mb-4 -mt-8">
-                <div className="h-[21px] mt-[6px] flex gap-3">
+                <div className="h-[21px] mt-[6px] flex items-center gap-3">
                     <img src="./Features_Icon.webp" alt="features" draggable="false" />
                     <span className="text-[#34C4FF] font-medium text-[18px] leading-[30px]">key Features</span>
                 </div>
