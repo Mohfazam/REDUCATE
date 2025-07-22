@@ -240,7 +240,7 @@ const Tenth = () => {
                         boxShadow: "0px 0px 0px 0.75px #FFFFFF1A inset",
                     }}>
                     <div className="w-[18px] h-[18px]">
-                        <img src="./Features_Grid_One.webp" alt="Chemical Vector" draggable="false" className="w-full h-full object-contain" />
+                        <img src="./Features_Grid_Icon_Three.webp" alt="Chemical Vector" draggable="false" className="w-full h-full object-contain" />
                     </div>
                 </div>
 
@@ -276,7 +276,7 @@ const Eleventh = () => {
                         boxShadow: "0px 0px 0px 0.75px #FFFFFF1A inset",
                     }}>
                     <div className="w-[18px] h-[18px]">
-                        <img src="./Features_Grid_One.webp" alt="Chemical Vector" draggable="false" className="w-full h-full object-contain" />
+                        <img src="./Features_Grid_Icon_Four.webp" alt="Chemical Vector" draggable="false" className="w-full h-full object-contain" />
                     </div>
                 </div>
 
