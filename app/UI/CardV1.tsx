@@ -23,8 +23,8 @@ export const CardV1 = () => {
                 <div className="flex gap-2 items-center justify-center">
                     <SquareGrid type={"first"} />
                     <div className="w-[260px] text-[#F8F8F8] font-normal text-[14px]">
-                        <span>AI-enabled, accessible and customized
-                            education, practice and preparation</span>
+                        <span>Hands-on learning and Industry-driven 
+curriculum developed by IIT-IIM alumni</span>
                     </div>
                 </div>
 
@@ -32,8 +32,8 @@ export const CardV1 = () => {
                 <div className="flex gap-2 items-center justify-center">
                     <SquareGrid type={"second"} />
                     <div className="w-[260px] text-[#F8F8F8] font-normal text-[14px]">
-                        <span>360 degree ecosystem encompassing
-                            entire learning journey on web and app </span>
+                        <span>AI-enabled, accessible and customized 
+education, practice and preparation</span>
                     </div>
                 </div>
 
@@ -41,8 +41,8 @@ export const CardV1 = () => {
                 <div className="flex gap-2 items-center justify-center">
                     <SquareGrid type={"third"} />
                     <div className="w-[260px] text-[#F8F8F8] font-normal text-[14px]">
-                        <span>Hands-on learning and Industry-driven
-                            curriculum developed by IIT-IIM alumni</span>
+                        <span>360 degree ecosystem encompassing
+entire learning journey on web and app </span>
                     </div>
                 </div>
             </div>
