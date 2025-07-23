@@ -55,7 +55,7 @@ interface SquareGridProps {
     type: 'first' | 'second' | 'third';
 }
 
-const Square = () => {
+export const Square = () => {
     return (
         <div
             className="h-[14px] w-[14px] rounded-[2.8px]"
