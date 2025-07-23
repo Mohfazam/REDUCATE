@@ -10,9 +10,9 @@ export default function Home() {
     
         <div>
           <Hero />
-          {/* <IntroSection />
+          <IntroSection />
           <Features />
-          <AIModules /> */}
+          <AIModules />
         </div>
   );
 }

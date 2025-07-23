@@ -35,7 +35,7 @@ export const DualCard = () => {
 const Side1 = () => {
     return (
         <div className="w-[364px] flex flex-col justify-center px-4 items-center gap-3 mt-4">
-            <h2 className="w-[190px] h-[27px] font-normal text-[22px] bg-gradient-to-r from-[#FFFFFF] to-[#9BBBFFCC] bg-clip-text text-transparent">
+            <h2 className="w-[190px] h-[29px] font-normal text-[22px] bg-gradient-to-r from-[#FFFFFF] to-[#9BBBFFCC] bg-clip-text text-transparent">
                 Techno University
             </h2>
 
