@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react";
+import { X } from "lucide-react"
 
 export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -16,7 +17,9 @@ export const Navbar = () => {
                     className="block lg:hidden text-white text-[30px] mt-3 cursor-pointer"
                     onClick={() => setMenuOpen(prev => !prev)}
                 >
-                    {menuOpen ? '✖' : '☰'}
+                    <span className="text-white">
+                        {menuOpen ? <X size={38}/> : '☰'}
+                    </span>
                 </div>
 
                 
